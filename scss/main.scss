@@ -9,4 +9,17 @@
 @import "./_components/container";
 @import "./_components/logo";
 @import "./_components/_hero-button";
-@import "./_components/modal-form"; //LAYOUT;
+@import "./_components/backdrop";
+@import "./_components/modal-form";
+@import "./_components/social-links";
+@import "./_components/footer-form";
+
+//LAYOUT
+@import "./_layout/header";
+@import "./_layout/hero";
+@import "./_layout/our-benefits";
+@import "./_layout/about-us";
+@import "./_layout/our-team";
+@import "./_layout/clients";
+@import "./_layout/portfolio";
+@import "./_layout/footer";
