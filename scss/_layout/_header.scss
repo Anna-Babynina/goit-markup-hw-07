@@ -41,11 +41,11 @@ header {
 }
 .menu-link {
   position: relative;
-}
 
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .menu-link.current::after {
@@ -97,11 +97,11 @@ header {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.mailto-icon:hover,
-.mailto-icon:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .menu-item:not(:last-child) {
